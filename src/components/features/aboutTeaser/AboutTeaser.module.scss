@@ -1,0 +1,36 @@
+@use '../../../styles/breakpoints' as *;
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 20px;
+}
+
+.description-wrapper {
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+    padding-right: 80px;
+}
+
+.description {
+    color: var(--color-text);
+    font-size: 30px;
+    line-height: 45px;
+    margin: 16px 0px 0px;
+}
+
+.usp-wrapper {
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@include media-desktop {
+    .wrapper {
+        flex-direction: row;
+        padding: 60px;
+    }
+}

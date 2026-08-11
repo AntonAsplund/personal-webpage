@@ -1,0 +1,65 @@
+.link-button {
+  align-items: center;
+  border: 1px solid transparent; // reserve the border so variants don't shift layout
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 500;
+  gap: 0.5rem;
+  justify-content: center;
+  line-height: 1.2;
+  padding: 0.55rem 1.1rem;
+  text-decoration: none;
+  transition: background-color 150ms ease, border-color 150ms ease,
+    box-shadow 150ms ease, color 150ms ease;
+  width: fit-content;
+}
+
+/* Solid gold call-to-action */
+.primary {
+  background: var(--color-accent);
+  color: var(--color-bg);
+
+  &:hover {
+    box-shadow: 0 0 0 4px var(--color-accent-glow);
+  }
+}
+
+/* Outlined blue accent — matches the site's existing link pills */
+.secondary {
+  background: transparent;
+  border-color: var(--color-accent-blue);
+  color: var(--color-accent-blue);
+
+  &:hover {
+    background: var(--color-accent-blue-soft);
+  }
+}
+
+/* Low-emphasis; border/background only appear on hover */
+.ghost {
+  background: transparent;
+  color: var(--color-text-muted);
+
+  &:hover {
+    background: var(--color-border);
+    color: var(--color-text);
+  }
+}
+
+/* Plain inline text link — no pill, no padding */
+.link {
+  background: transparent;
+  color: var(--color-accent-blue);
+  padding: 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Applied by TanStack Router when the link's target is the current route */
+.active {
+  font-weight: 600;
+}

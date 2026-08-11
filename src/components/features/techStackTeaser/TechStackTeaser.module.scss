@@ -1,0 +1,11 @@
+@use '../../../styles/breakpoints' as *;
+
+.wrapper {
+    padding: 20px
+}
+
+@include media-desktop {
+    .wrapper {
+        padding: 60px
+    }
+}

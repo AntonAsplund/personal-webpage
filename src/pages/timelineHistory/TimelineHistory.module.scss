@@ -1,0 +1,12 @@
+@use '../../styles/breakpoints' as *;
+
+.header {
+    font-size: 58px;
+    margin: 0px 0px 56px;
+}
+
+@include media-desktop {
+    .header {
+        margin-bottom: 40px;
+    }
+}

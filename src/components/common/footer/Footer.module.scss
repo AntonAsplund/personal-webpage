@@ -1,0 +1,31 @@
+@use '../../../styles/breakpoints' as *;
+
+.footer {
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-subtle);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+
+  p {
+    flex-shrink: 0;
+  }
+}
+
+.divider {
+  padding: 0px 8px;
+}
+
+@include media-desktop {
+  .footer {
+    padding: 28px 64px;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "customSyntax": "postcss-scss",
+  "ignoreFiles": [
+    "dist/**"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "color-no-invalid-hex": true,
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-no-important": true,
+    "font-family-no-missing-generic-family-keyword": true,
+    "no-descending-specificity": true,
+    "property-no-vendor-prefix": true,
+    "selector-class-pattern": null,
+    "shorthand-property-no-redundant-values": true,
+    "order/properties-alphabetical-order": true
+  }
+}

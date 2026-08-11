@@ -1,0 +1,44 @@
+@use '../../../styles/breakpoints' as *;
+
+.wrapper {
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 16px 0px 30px;
+}
+
+.header {
+    color: var(--color-text);
+    font-size: 18px;
+    line-height: 45px;
+}
+
+.tag-wrapper {
+    align-items: end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: var(--color-bg-light);
+    border: 1px solid var(--color-border);
+    border-radius: 32px;
+    color: var(--color-text);
+    font-size: 18px;
+    padding: 9px 16px;
+}
+
+@include media-desktop {
+    .wrapper {
+        flex-direction: row;
+    }
+
+    .header,
+    .tag-wrapper {
+        width: 50%;
+    }
+}
