@@ -5,6 +5,7 @@ import { LinkButton } from '../../components/common/button/LinkButton'
 import { TeaserHeader } from '../../components/common/teaser-header/TeaserHeader'
 import { AboutTeaser } from '../../components/features/aboutTeaser/AboutTeaser'
 import { TechStackTeaser } from '../../components/features/techStackTeaser/TechStackTeaser'
+import antonAsplundImage from '../../assets/images/anton-asplund-2.jpg'
 
 
 export function Home() {
@@ -25,7 +26,7 @@ export function Home() {
           </div>
         </div>
         <div className={style['image-wrapper']}>
-          <img className={style['image']} src="./src/assets/images/anton-asplund-2.jpg" alt="An image of Anton Asplund" />
+          <img className={style['image']} src={antonAsplundImage} alt="An image of Anton Asplund" />
         </div>
       </div>
 
