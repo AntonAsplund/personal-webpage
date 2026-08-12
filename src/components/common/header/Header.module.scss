@@ -24,7 +24,6 @@
 .nav-menu-mobile {
   display: flex;
   flex-direction: column;
-  gap: 32px;
   margin-top: 32px;
 }
 
@@ -83,7 +82,7 @@
   font-family: var(--font-sans);
   font-size: 64px;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 64px;
   padding: 16px;
   text-decoration: none;
   transition: background-color 150ms ease, color 150ms ease;
