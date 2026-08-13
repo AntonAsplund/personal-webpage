@@ -6,6 +6,7 @@ import { Blog } from './pages/blog/Blog'
 import { Contact } from './pages/contact/Contact'
 import { Header } from './components/common/header/Header'
 import { Footer } from './components/common/footer/Footer'
+import { NotFoundPage } from './pages/notFoundPage/NotFoundPage'
 
 const Root = () => (
   <div className="app-shell">
@@ -52,4 +53,5 @@ const routeTree = rootRoute.addChildren([homeRoute, timelineRoute, blogRoute, co
 export const router = createRouter({
   routeTree,
   defaultPreload: 'intent',
+  defaultNotFoundComponent: NotFoundPage,
 })

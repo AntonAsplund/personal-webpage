@@ -36,5 +36,8 @@
     "TIMELINE_TWO_DESCRIPTION": "Ansvarig för utveckling, kvalitetssäkring och integration av anpassade AEM-komponenter, samtidigt som stabilitet, tillförlitlighet och prestanda säkerställdes för Stena Lines kundnära webbplatser. Rollen omfattade även utveckling av .NET Core-webb-API:er och implementering av ett responsivt React-gränssnitt, vilket förbättrade användarupplevelsen och effektiviserade applikationens funktioner.",
     "TIMELINE_THREE_HEADER": "Full-stack-utvecklare & Scrum Master",
     "TIMELINE_THREE_SUB_HEADER": "Stena Line Scandinavia AB",
-    "TIMELINE_THREE_DESCRIPTION": "Leder det dagliga leveransarbetet för Stena Lines webbplattform som senior utvecklare och Scrum Master, och kombinerar praktisk implementering med teknisk vägledning för kollegor. Äger kvalitet och tillförlitlighet i kundnära lösningar som spänner över AEM, .NET Core-API:er och React, samtidigt som agila arbetssätt främjas, hinder undanröjs och teamet hjälps att leverera med jämn kvalitet."
+    "TIMELINE_THREE_DESCRIPTION": "Leder det dagliga leveransarbetet för Stena Lines webbplattform som senior utvecklare och Scrum Master, och kombinerar praktisk implementering med teknisk vägledning för kollegor. Äger kvalitet och tillförlitlighet i kundnära lösningar som spänner över AEM, .NET Core-API:er och React, samtidigt som agila arbetssätt främjas, hinder undanröjs och teamet hjälps att leverera med jämn kvalitet.",
+    "NOT_FOUND_PAGE_TITLE": "Ooops! Sidan hittades inte",
+    "NOT_FOUND_PAGE_DESCRIPTION": "Sidan du letar efter finns inte.",
+    "NOT_FOUND_PAGE_LINK": "Gå tillbaka till startsidan"
 }

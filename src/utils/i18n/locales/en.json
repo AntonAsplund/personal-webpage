@@ -36,5 +36,8 @@
     "TIMELINE_TWO_DESCRIPTION": "Responsible for the development, quality assurance, and integration of custom AEM components while ensuring the stability, reliability, and performance of customer-facing Stena Line sites. This role also includes the development of .NET Core Web APIs and the implementation of a responsive React front end, enhancing user experiences and streamlining application functionalities.",
     "TIMELINE_THREE_HEADER": "Full-stack Developer & Scrum Master",
     "TIMELINE_THREE_SUB_HEADER": "Stena Line Scandinavia AB",
-    "TIMELINE_THREE_DESCRIPTION": "Leads day-to-day delivery across the Stena Line web platform as a mid-to-senior developer and Scrum Master, combining hands-on implementation with technical guidance for teammates. Owns quality and reliability of customer-facing solutions spanning AEM, .NET Core APIs, and React, while facilitating agile ways of working, removing impediments, and helping the team deliver consistently."
+    "TIMELINE_THREE_DESCRIPTION": "Leads day-to-day delivery across the Stena Line web platform as a mid-to-senior developer and Scrum Master, combining hands-on implementation with technical guidance for teammates. Owns quality and reliability of customer-facing solutions spanning AEM, .NET Core APIs, and React, while facilitating agile ways of working, removing impediments, and helping the team deliver consistently.",
+    "NOT_FOUND_PAGE_TITLE": "Ooops! Page not found",
+    "NOT_FOUND_PAGE_DESCRIPTION": "The page you are looking for does not exist.",
+    "NOT_FOUND_PAGE_LINK": "Go back home"
 }
