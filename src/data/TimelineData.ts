@@ -20,7 +20,7 @@ export const CareerTimelineData: TimelineEntry[] = [
     organization: "Stena Line Scandinavia AB",
     summary:
       "Responsible for development, deployment, quality assurance, integration of custom components and underlying logic in Adobe Experience Manager Sites and Assets. Whilst maintaining the stability, reliability and performance of customer facing Stena Line sites.",
-    tags: ["Adobe Experience Manager", "JAVA", "Javascript", "SCSS", "JCR", "Apache Sling"],
+    tags: ["Adobe Experience Manager", "React", "JAVA", "Javascript", "SCSS", "JCR", "Apache Sling"],
   },
   {
     startDate: new Date("2020-11-09"),
