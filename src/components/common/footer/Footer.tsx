@@ -6,7 +6,7 @@ export const Footer = () => {
 
     return (
         <footer className={style['footer']}>
-          <p>&copy; {new Date().getFullYear()} Anton Asplund</p>
+          <p>&copy; {new Date().getFullYear()} - Anton Asplund</p>
           <div className={style['title-wrapper']}>
             <p>{t("FOOTER_TITLE_TAG_DEVELOPER")}</p>
             <div className={style['divider']}>·</div>
