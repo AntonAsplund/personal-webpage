@@ -3,11 +3,13 @@ import { useTranslation } from "react-i18next";
 import style from './Header.module.scss';
 import { useIsDesktop } from "../../../hooks/useIsDesktop";
 import { useState } from "react";
+import { FEATURE_TOGGLES, isFeatureEnabled } from "../../../utils/featureToggle";
 
 export const Header = () => {
     const { t, i18n } = useTranslation();
     const isDesktop = useIsDesktop();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const isPortfolioEnabled = isFeatureEnabled(FEATURE_TOGGLES.PORTFOLIO);
 
     const links = (onNavigate?: () => void) => (
         <>
@@ -17,6 +19,11 @@ export const Header = () => {
             <Link className={style['nav-link']} to="/timeline" activeProps={{ className: style['active'] }} onClick={onNavigate}>
                 {t("HEADER_TIMELINE")}
             </Link>
+            {isPortfolioEnabled && (
+                <Link className={style['nav-link']} to="/portfolio" activeProps={{ className: style['active'] }} onClick={onNavigate}>
+                    {t("HEADER_PORTFOLIO")}
+                </Link>
+            )}
             <Link className={style['nav-link']} to="/contact" activeProps={{ className: style['active'] }} onClick={onNavigate}>
                 {t("HEADER_CONTACT")}
             </Link>

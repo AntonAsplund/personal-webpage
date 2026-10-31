@@ -39,5 +39,9 @@
     "TIMELINE_THREE_DESCRIPTION": "Leder det dagliga leveransarbetet för Stena Lines webbplattform som senior utvecklare och Scrum Master, och kombinerar praktisk implementering med teknisk vägledning för kollegor. Äger kvalitet och tillförlitlighet i kundnära lösningar som spänner över AEM, .NET Core-API:er och React, samtidigt som agila arbetssätt främjas, hinder undanröjs och teamet hjälps att leverera med jämn kvalitet.",
     "NOT_FOUND_PAGE_TITLE": "Ooops! Sidan hittades inte",
     "NOT_FOUND_PAGE_DESCRIPTION": "Sidan du letar efter finns inte.",
-    "NOT_FOUND_PAGE_LINK": "Gå tillbaka till startsidan"
+    "NOT_FOUND_PAGE_LINK": "Gå tillbaka till startsidan",
+    "HEADER_PORTFOLIO": "Portfolio",
+    "PORTFOLIO_PAGE_TEASER_HEADER": "Utvalda arbeten",
+    "PORTFOLIO_PAGE_HEADER": "Portfolio",
+    "PORTFOLIO_PAGE_DESCRIPTION": "Ett urval av projekt och funktioner som jag har byggt och är stolt över."
 }

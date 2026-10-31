@@ -1,0 +1,74 @@
+@use '../../../styles/breakpoints' as *;
+
+.anchor {
+    display: flex;
+    text-decoration: none;
+}
+
+.card {
+    background-color: var(--color-bg-light);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+    transition: border-color 150ms ease;
+}
+
+.clickable:hover {
+    border-color: var(--color-border-blue);
+}
+
+.image {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 12px;
+    padding: 26px;
+}
+
+.header-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.header {
+    color: var(--color-text);
+    margin: 0px;
+}
+
+.icon {
+    color: var(--color-text);
+    flex-shrink: 0;
+}
+
+.description {
+    color: var(--color-text-dimmed);
+    flex: 1;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tag {
+    background: var(--color-accent-blue-faint);
+    border-radius: 9999px;
+    color: var(--color-text-blue);
+    font-size: 14px;
+    padding: 4px 12px;
+}
