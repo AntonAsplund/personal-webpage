@@ -39,5 +39,9 @@
     "TIMELINE_THREE_DESCRIPTION": "Leads day-to-day delivery across the Stena Line web platform as a mid-to-senior developer and Scrum Master, combining hands-on implementation with technical guidance for teammates. Owns quality and reliability of customer-facing solutions spanning AEM, .NET Core APIs, and React, while facilitating agile ways of working, removing impediments, and helping the team deliver consistently.",
     "NOT_FOUND_PAGE_TITLE": "Ooops! Page not found",
     "NOT_FOUND_PAGE_DESCRIPTION": "The page you are looking for does not exist.",
-    "NOT_FOUND_PAGE_LINK": "Go back home"
+    "NOT_FOUND_PAGE_LINK": "Go back home",
+    "HEADER_PORTFOLIO": "Portfolio",
+    "PORTFOLIO_PAGE_TEASER_HEADER": "Selected work",
+    "PORTFOLIO_PAGE_HEADER": "Portfolio",
+    "PORTFOLIO_PAGE_DESCRIPTION": "A selection of projects and features I have built and am proud of."
 }

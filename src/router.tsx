@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet, createRootRoute, createRoute, createRouter } from '@tanstack/react-router'
+import { Outlet, createRootRoute, createRoute, createRouter, notFound } from '@tanstack/react-router'
 import { Home } from './pages/Home/Home'
 import { TimelineHistory } from './pages/timelineHistory/TimelineHistory'
 import { Blog } from './pages/blog/Blog'
@@ -7,6 +7,8 @@ import { Contact } from './pages/contact/Contact'
 import { Header } from './components/common/header/Header'
 import { Footer } from './components/common/footer/Footer'
 import { NotFoundPage } from './pages/notFoundPage/NotFoundPage'
+import { Portfolio } from './pages/portfolio/Portfolio'
+import { FEATURE_TOGGLES, isFeatureEnabled } from './utils/featureToggle'
 
 const Root = () => (
   <div className="app-shell">
@@ -48,7 +50,16 @@ const contactRoute = createRoute({
   component: Contact,
 })
 
-const routeTree = rootRoute.addChildren([homeRoute, timelineRoute, blogRoute, contactRoute])
+const portfolioRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: 'portfolio',
+  beforeLoad: () => {
+    if (!isFeatureEnabled(FEATURE_TOGGLES.PORTFOLIO)) throw notFound()
+  },
+  component: Portfolio,
+})
+
+const routeTree = rootRoute.addChildren([homeRoute, timelineRoute, blogRoute, contactRoute, portfolioRoute])
 
 export const router = createRouter({
   routeTree,
